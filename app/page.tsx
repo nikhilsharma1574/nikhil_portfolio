@@ -2,6 +2,17 @@ import Image from "next/image";
 import React from "react";
 import { sanityFetch } from "@/sanity/lib/sanityFetch";
 import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu"
+
+import {
   experienceQuery,
   skillsQuery,
   projectsQuery,
